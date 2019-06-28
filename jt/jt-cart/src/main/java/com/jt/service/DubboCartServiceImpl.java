@@ -31,7 +31,7 @@ public class DubboCartServiceImpl implements DubboCartService {
 	 * 更新数据信息: num/updated
 	 * 判断条件:where user_id and item_id
 	 */
-	@Transactional	//事务控制
+	@Transactional	//事 务 控 制
 	@Override
 	public void updateCartNum(Cart cart) {
 		Cart tempCart = new Cart();
